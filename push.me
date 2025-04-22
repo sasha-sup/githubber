@@ -1,0 +1,6 @@
+!#/bin/bash
+DATE=$(date +"%Y-%m-%d_%H-%M-%S"))
+echo "Just for fun ${DATE}" > README.md
+git add README.md
+git commit -m "Just for fun ${DATE}"
+git push
